@@ -11,5 +11,5 @@ const PORT = process.env.PORT || 5000;
 Database();
 
 app.listen(PORT,()=>{
-    console.log(`server running port: ${PORT}`)
+    console.log(`server running port: ${PORT} on ${process.env.NODE_ENV} mode`)
 })
