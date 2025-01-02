@@ -2,7 +2,7 @@ import axios from 'axios';
 import queryString from 'query-string';
 import process from 'process';
 
-const baseURL = process.env.VITE_API_URL;
+const baseURL = `${process.env.VITE_API_URL}/api`;
 
 console.log(process.env.VITE_API_URL)
 
