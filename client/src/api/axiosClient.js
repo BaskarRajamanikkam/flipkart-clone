@@ -1,7 +1,11 @@
 import axios from 'axios';
 import queryString from 'query-string';
+import process from 'process';
 
-const baseURL = 'http://localhost:8000/api';
+const baseURL = process.env.VITE_API_URL;
+
+console.log(process.env.VITE_API_URL)
+
 const getToken = () => localStorage.getItem('token');
 
 const axiosClient = axios.create({
