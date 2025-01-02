@@ -1,10 +1,11 @@
 import axios from 'axios';
 import queryString from 'query-string';
-import process from 'process';
+const backendUrl = import.meta.env.VITE_API_URL;
 
-const baseURL = `${process.env.VITE_API_URL}/api`;
 
-console.log(process.env.VITE_API_URL)
+const baseURL = `${backendUrl}/api`;
+
+console.log(baseURL)
 
 const getToken = () => localStorage.getItem('token');
 
