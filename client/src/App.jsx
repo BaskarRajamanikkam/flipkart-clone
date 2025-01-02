@@ -10,7 +10,7 @@ import Signup from './pages/User/Signup';
 import Login from './pages/User/Login';
 import Offers from './pages/Offers/Offers';
 import Layout from './layouts/Layout';
-import PRoductDetails from './pages/ProductDetails/PRoductDetails';
+import ProductDetail from './pages/ProductDetails/ProductDetail';
 const App = () => {
 
   return (
@@ -20,7 +20,7 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/products' element={<Products />} />
           <Route path='/offers' element={<Offers />} />
-          <Route path='/product/:id' element={<PRoductDetails/>}/>
+          <Route path='/product/:id' element={<ProductDetail/>}/>
         </Routes>
       </Layout>
     </>
