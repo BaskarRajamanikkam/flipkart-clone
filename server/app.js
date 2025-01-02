@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 const corsOptions ={
-    origin: 'https://flipkart-clone-a8os.onrender.com', // Specify the origin you want to allow
+    origin: 'https://flipkart-clone-1-kex9.onrender.com', // Specify the origin you want to allow
     credentials: true, // Allow credentials (cookies, authorization headers)
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
