@@ -10,7 +10,8 @@ const ErrorHandler = require("../utils/ErrorHandler");
 //get all products
 exports.getAllProducts = CatchAsyncError(async (req, res, next) => {
 try {
- const features = new ApiFeatures(Product, req.query);
+ const features = new ApiFeatures(Product, req.query); 
+
  const products = await features.search(
   ["name","highlights",],// Fields to search in Product model
   [
