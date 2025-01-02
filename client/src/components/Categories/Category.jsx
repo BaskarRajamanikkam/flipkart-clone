@@ -59,7 +59,7 @@ const Category = () => {
     }
 
   return (
-    <section className="max-w-[100rem] px-20 mx-auto mt-2 shadow overflow-hidden bg-[#FFF]">
+    <section className="max-w-[100rem] px-20 mx-auto pt-20  shadow overflow-hidden bg-[#FFF]">
         <div className="flex items-center justify-between">
             {catNav.map((item,index)=>(
                 <CategoryBox

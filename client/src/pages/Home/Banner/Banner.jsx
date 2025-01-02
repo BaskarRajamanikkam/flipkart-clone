@@ -39,7 +39,7 @@ const Banner = () => {
     nextArrow: <NextBtn />,
   };
   return (
-    <section className='rounded-sm shadow relative overflow-hidden h-[250px] max-w-[100rem] mx-auto'>
+    <section className='rounded-sm shadow relative overflow-hidden h-[280px] bg-white max-w-[100rem] mx-auto'>
       <Slider {...settings}>
         {banner.map((item,index)=>(
           <img draggable='false' className=' w-full object-contain' key={index} src={item} alt="banner" />

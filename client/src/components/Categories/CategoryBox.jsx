@@ -34,6 +34,8 @@ const CategoryBox = ({label,icon,selected}) => {
       navigate(url);
   }, [label, navigate, params]);
 
+ 
+
   return (
     <div  onClick={handleClick}  className={`flex flex-col items-center justify-center gap-1 p-1 border-b-2 hover:text-neutral-800 transition cursor-pointer
         ${selected ? 'border-b-neutral-800' : 'border-transparent'}

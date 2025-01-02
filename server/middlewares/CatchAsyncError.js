@@ -1,3 +1,3 @@
-module.exports = errorFunc => (req,res,next) =>{
-   Promise.resolve(errorFunc(req,res,next)).catch(next);  
+module.exports = errorFunction => (req,res,next) =>{
+   Promise.resolve(errorFunction(req,res,next)).catch(next);  
 }

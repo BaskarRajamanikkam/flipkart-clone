@@ -3,7 +3,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 const Nav = () => {
   return (
-    <section className='bg-white my-2 shadow '>
+    <section className='bg-white pt-14 my-2 shadow '>
         <div className="max-w-7xl h-10 flex items-center mx-auto px-20">
             <ul className='flex items-center justify-between gap-12'>
                 <li>
